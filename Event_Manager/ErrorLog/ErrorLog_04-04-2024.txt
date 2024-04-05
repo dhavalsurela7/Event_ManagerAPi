@@ -1,0 +1,209 @@
+------------------------------------------04-04-2024 11:25:36------------------------------------------
+EventController=>EventOperation=>Request{"flag":"INSERT","Event_Name":"Diwali","Event_Start_Date":"2024-05-03","Event_End_Date":"2024-05-05","Event_Image":null,"Event_Description":"We are celebrating diwali in office ha ha !!"}
+------------------------------------------04-04-2024 11:25:36------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------04-04-2024 11:30:57------------------------------------------
+EventController=>EventOperation=>Request{"flag":"INSERT","Event_Name":"Diwali","Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null}
+------------------------------------------04-04-2024 11:31:00------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------04-04-2024 11:32:21------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"INSERT","Activity_Name":"Firecracker","Activity_Description":"All employee will be given two rockets","Activity_Start_Date":"2024-05-03T11:27:52.02","Activity_End_Date":"2024-05-03T12:27:52.02","Activity_Price":null,"Event_Name":"Diwali"}
+------------------------------------------04-04-2024 11:32:23------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------04-04-2024 11:39:17------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Name":null,"Activity_Description":null,"Activity_Start_Date":"0001-01-01T00:00:00","Activity_End_Date":"0001-01-01T00:00:00","Activity_Price":null,"Event_Name":"Diwali"}
+------------------------------------------04-04-2024 11:39:17------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------04-04-2024 11:39:17------------------------------------------
+ActivityBL=>ActivityOperation=>ExceptionSqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Users\LENOVO\source\repos\Event_Manager\Library\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Users\LENOVO\source\repos\Event_Manager\Library\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Users\LENOVO\source\repos\Event_Manager\Library\SqlHelper.cs:line 523
+   at BL.ActivityBL.ActivityOperation(ActivityEntity objEntity) in C:\Users\LENOVO\source\repos\Event_Manager\BL\ActivityBL.cs:line 41
+------------------------------------------04-04-2024 11:39:26------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Name":null,"Activity_Description":null,"Activity_Start_Date":"0001-01-01T00:00:00","Activity_End_Date":"0001-01-01T00:00:00","Activity_Price":null,"Event_Name":"Diwali"}
+------------------------------------------04-04-2024 11:39:30------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------04-04-2024 11:42:36------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Name":null,"Activity_Description":null,"Activity_Start_Date":null,"Activity_End_Date":null,"Activity_Price":null,"Event_Name":"Diwali"}
+------------------------------------------04-04-2024 11:42:36------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------04-04-2024 11:47:42------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"GET","Activity_Name":null,"Activity_Description":null,"Activity_Start_Date":null,"Activity_End_Date":null,"Activity_Price":null,"Event_Name":"Diwali"}
+------------------------------------------04-04-2024 11:47:42------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------04-04-2024 11:47:51------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"GET","Activity_Name":null,"Activity_Description":null,"Activity_Start_Date":null,"Activity_End_Date":null,"Activity_Price":null,"Event_Name":"Diwali"}
+------------------------------------------04-04-2024 11:47:54------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------04-04-2024 11:48:30------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Name":null,"Activity_Description":null,"Activity_Start_Date":null,"Activity_End_Date":null,"Activity_Price":null,"Event_Name":"Diwali"}
+------------------------------------------04-04-2024 11:48:50------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Name":null,"Activity_Description":null,"Activity_Start_Date":null,"Activity_End_Date":null,"Activity_Price":null,"Event_Name":"Diwali"}
+------------------------------------------04-04-2024 11:48:53------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------04-04-2024 11:55:04------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Name":null,"Activity_Description":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Name":"Diwali"}
+------------------------------------------04-04-2024 11:55:06------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------04-04-2024 11:57:19------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Name":null,"Activity_Description":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Name":"Diwali"}
+------------------------------------------04-04-2024 11:57:19------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------04-04-2024 12:02:05------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Name":null,"Activity_Description":null,"Activity_Start_Datetime":"0001-01-01T00:00:00","Activity_End_Datetime":"0001-01-01T00:00:00","Activity_Price":null,"Event_Name":"Diwali"}
+------------------------------------------04-04-2024 12:02:05------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------04-04-2024 12:02:05------------------------------------------
+ActivityBL=>ActivityOperation=>ExceptionSqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Users\LENOVO\source\repos\Event_Manager\Library\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Users\LENOVO\source\repos\Event_Manager\Library\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Users\LENOVO\source\repos\Event_Manager\Library\SqlHelper.cs:line 523
+   at BL.ActivityBL.ActivityOperation(ActivityEntity objEntity) in C:\Users\LENOVO\source\repos\Event_Manager\BL\ActivityBL.cs:line 41
+------------------------------------------04-04-2024 12:02:18------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Name":null,"Activity_Description":null,"Activity_Start_Datetime":"0001-01-01T00:00:00","Activity_End_Datetime":"0001-01-01T00:00:00","Activity_Price":null,"Event_Name":"Diwali"}
+------------------------------------------04-04-2024 12:02:21------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------04-04-2024 12:03:43------------------------------------------
+ActivityBL=>ActivityOperation=>ExceptionSqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Users\LENOVO\source\repos\Event_Manager\Library\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Users\LENOVO\source\repos\Event_Manager\Library\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Users\LENOVO\source\repos\Event_Manager\Library\SqlHelper.cs:line 523
+   at BL.ActivityBL.ActivityOperation(ActivityEntity objEntity) in C:\Users\LENOVO\source\repos\Event_Manager\BL\ActivityBL.cs:line 41
+------------------------------------------04-04-2024 12:03:45------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Name":null,"Activity_Description":null,"Activity_Start_Datetime":"0001-01-01T00:00:00","Activity_End_Datetime":"0001-01-01T00:00:00","Activity_Price":null,"Event_Name":"Diwali"}
+------------------------------------------04-04-2024 12:03:45------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------04-04-2024 12:03:45------------------------------------------
+ActivityBL=>ActivityOperation=>ExceptionSqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Users\LENOVO\source\repos\Event_Manager\Library\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Users\LENOVO\source\repos\Event_Manager\Library\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Users\LENOVO\source\repos\Event_Manager\Library\SqlHelper.cs:line 523
+   at BL.ActivityBL.ActivityOperation(ActivityEntity objEntity) in C:\Users\LENOVO\source\repos\Event_Manager\BL\ActivityBL.cs:line 41
+------------------------------------------04-04-2024 12:03:54------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Name":null,"Activity_Description":null,"Activity_Start_Datetime":"0001-01-01T00:00:00","Activity_End_Datetime":"0001-01-01T00:00:00","Activity_Price":null,"Event_Name":"Diwali"}
+------------------------------------------04-04-2024 12:03:57------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------04-04-2024 12:05:33------------------------------------------
+ActivityBL=>ActivityOperation=>ExceptionSqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Users\LENOVO\source\repos\Event_Manager\Library\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Users\LENOVO\source\repos\Event_Manager\Library\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Users\LENOVO\source\repos\Event_Manager\Library\SqlHelper.cs:line 523
+   at BL.ActivityBL.ActivityOperation(ActivityEntity objEntity) in C:\Users\LENOVO\source\repos\Event_Manager\BL\ActivityBL.cs:line 41
+------------------------------------------04-04-2024 12:05:58------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Name":null,"Activity_Description":null,"Activity_Start_Datetime":"0001-01-01T00:00:00","Activity_End_Datetime":"0001-01-01T00:00:00","Activity_Price":null,"Event_Name":"Diwali"}
+------------------------------------------04-04-2024 12:06:01------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------04-04-2024 12:06:25------------------------------------------
+ActivityBL=>ActivityOperation=>ExceptionSqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Users\LENOVO\source\repos\Event_Manager\Library\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Users\LENOVO\source\repos\Event_Manager\Library\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Users\LENOVO\source\repos\Event_Manager\Library\SqlHelper.cs:line 523
+   at BL.ActivityBL.ActivityOperation(ActivityEntity objEntity) in C:\Users\LENOVO\source\repos\Event_Manager\BL\ActivityBL.cs:line 41
+------------------------------------------04-04-2024 12:06:34------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Name":null,"Activity_Description":null,"Activity_Start_Datetime":"0001-01-01T00:00:00","Activity_End_Datetime":"0001-01-01T00:00:00","Activity_Price":null,"Event_Name":"Diwali"}
+------------------------------------------04-04-2024 12:06:36------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------04-04-2024 12:07:40------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Name":null,"Activity_Description":null,"Activity_Start_Datetime":"0001-01-01T00:00:00","Activity_End_Datetime":"0001-01-01T00:00:00","Activity_Price":null,"Event_Name":"Diwali"}
+------------------------------------------04-04-2024 12:07:42------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------04-04-2024 12:08:28------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Name":null,"Activity_Description":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Name":"Diwali"}
+------------------------------------------04-04-2024 12:08:30------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------04-04-2024 12:09:59------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Name":null,"Activity_Description":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Name":"Diwali"}
+------------------------------------------04-04-2024 12:09:59------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------04-04-2024 12:11:37------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"INSERT","Activity_Name":"New year","Activity_Description":"All employee will be given two rockets","Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Name":"Diwali"}
+------------------------------------------04-04-2024 12:11:39------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------04-04-2024 12:12:09------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"INSERT","Activity_Name":"New year","Activity_Description":"All employee will be given two rockets","Activity_Start_Datetime":"2024-05-04 11:27:52.020","Activity_End_Datetime":"2024-05-04 12:27:52.020","Activity_Price":null,"Event_Name":"Diwali"}
+------------------------------------------04-04-2024 12:12:09------------------------------------------
+ActivityBL=>ActivityOperation=>ExceptionCannot insert the value NULL into column 'Activity_Start_Datetime', table 'Event_Handling.dbo.tbl_Activities'; column does not allow nulls. INSERT fails.
+The statement has been terminated.   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Users\LENOVO\source\repos\Event_Manager\Library\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Users\LENOVO\source\repos\Event_Manager\Library\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Users\LENOVO\source\repos\Event_Manager\Library\SqlHelper.cs:line 523
+   at BL.ActivityBL.ActivityOperation(ActivityEntity objEntity) in C:\Users\LENOVO\source\repos\Event_Manager\BL\ActivityBL.cs:line 41
+------------------------------------------04-04-2024 12:12:11------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------04-04-2024 12:12:57------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Name":null,"Activity_Description":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Name":"Diwali"}
+------------------------------------------04-04-2024 12:12:57------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------04-04-2024 12:16:24------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECTNAME","Activity_Name":null,"Activity_Description":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Name":"Diwali"}
+------------------------------------------04-04-2024 12:16:24------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------04-04-2024 12:21:25------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SETPRICE","Activity_Name":"Firecracker","Activity_Description":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":"200","Event_Name":null}
+------------------------------------------04-04-2024 12:21:25------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------04-04-2024 14:23:53------------------------------------------
+UserBL=>UserOperation=>Started
+------------------------------------------04-04-2024 14:29:57------------------------------------------
+UserBL=>UserOperation=>Started
+------------------------------------------04-04-2024 17:24:56------------------------------------------
+UserBL=>UserOperation=>Started
+------------------------------------------04-04-2024 18:19:52------------------------------------------
+UserBL=>UserOperation=>Started
+------------------------------------------04-04-2024 18:45:13------------------------------------------
+UserBL=>UserOperation=>Started
