@@ -308,3 +308,115 @@ EventBL=>EventOperation=>Started
 EventController=>EventOperation=>Request{"flag":"PUBLISH","Event_Name":"bladerunner","Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null}
 ------------------------------------------05-04-2024 17:43:17------------------------------------------
 EventBL=>EventOperation=>Started
+------------------------------------------05-04-2024 18:07:27------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTNAME","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null}
+------------------------------------------05-04-2024 18:07:27------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------05-04-2024 18:07:30------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECTNAME","Activity_Name":null,"Activity_Description":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Name":"Holi"}
+------------------------------------------05-04-2024 18:07:30------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------05-04-2024 18:09:03------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTNAME","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null}
+------------------------------------------05-04-2024 18:09:03------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------05-04-2024 18:09:05------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECTNAME","Activity_Name":null,"Activity_Description":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Name":"Holi"}
+------------------------------------------05-04-2024 18:09:05------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------05-04-2024 18:09:09------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SETPRICE","Event_Name":"Holi","Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null}
+------------------------------------------05-04-2024 18:09:09------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------05-04-2024 18:11:37------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTNAME","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null}
+------------------------------------------05-04-2024 18:11:37------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------05-04-2024 18:11:41------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECTNAME","Activity_Name":null,"Activity_Description":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Name":"Holi"}
+------------------------------------------05-04-2024 18:11:41------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------05-04-2024 18:11:47------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SETPRICE","Event_Name":"Holi","Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null}
+------------------------------------------05-04-2024 18:11:47------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------05-04-2024 18:12:14------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTNAME","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null}
+------------------------------------------05-04-2024 18:12:14------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------05-04-2024 18:12:19------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECTNAME","Activity_Name":null,"Activity_Description":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Name":"Holi"}
+------------------------------------------05-04-2024 18:12:19------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------05-04-2024 18:12:58------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SETPRICE","Event_Name":"Holi","Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null}
+------------------------------------------05-04-2024 18:12:58------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------05-04-2024 18:13:06------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTNAME","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null}
+------------------------------------------05-04-2024 18:13:06------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------05-04-2024 18:13:09------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECTNAME","Activity_Name":null,"Activity_Description":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Name":"Holi"}
+------------------------------------------05-04-2024 18:13:09------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------05-04-2024 18:13:15------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SETPRICE","Activity_Name":"color","Activity_Description":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":"200","Event_Name":"Holi"}
+------------------------------------------05-04-2024 18:13:15------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------05-04-2024 18:14:47------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTNAME","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null}
+------------------------------------------05-04-2024 18:14:47------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------05-04-2024 18:14:51------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECTNAME","Activity_Name":null,"Activity_Description":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Name":"Diwali"}
+------------------------------------------05-04-2024 18:14:51------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------05-04-2024 18:15:03------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SETPRICE","Activity_Name":"New year","Activity_Description":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":"1000","Event_Name":"Diwali"}
+------------------------------------------05-04-2024 18:15:03------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------05-04-2024 18:18:15------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTNAME","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null}
+------------------------------------------05-04-2024 18:18:15------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------05-04-2024 18:18:17------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECTNAME","Activity_Name":null,"Activity_Description":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Name":"Diwali"}
+------------------------------------------05-04-2024 18:18:17------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------05-04-2024 18:18:27------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SETPRICE","Activity_Name":"Firecracker","Activity_Description":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":"1000","Event_Name":"Diwali"}
+------------------------------------------05-04-2024 18:18:27------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------05-04-2024 18:20:00------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTNAME","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null}
+------------------------------------------05-04-2024 18:20:00------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------05-04-2024 18:20:02------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECTNAME","Activity_Name":null,"Activity_Description":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Name":"bladerunner"}
+------------------------------------------05-04-2024 18:20:02------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------05-04-2024 18:20:05------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SETPRICE","Activity_Name":"","Activity_Description":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":"200","Event_Name":"bladerunner"}
+------------------------------------------05-04-2024 18:20:05------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------05-04-2024 18:20:48------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTNAME","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null}
+------------------------------------------05-04-2024 18:20:48------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------05-04-2024 18:20:51------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECTNAME","Activity_Name":null,"Activity_Description":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Name":"Diwali"}
+------------------------------------------05-04-2024 18:20:51------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------05-04-2024 18:29:32------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTNAME","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null}
+------------------------------------------05-04-2024 18:29:32------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------05-04-2024 18:29:33------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTNAME","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null}
+------------------------------------------05-04-2024 18:29:33------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------05-04-2024 18:37:36------------------------------------------
+AdminBL=>AdminOperation=>Started
+------------------------------------------05-04-2024 18:42:47------------------------------------------
+AdminBL=>AdminOperation=>Started

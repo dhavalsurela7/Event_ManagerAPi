@@ -1,0 +1,20 @@
+------------------------------------------07-04-2024 15:38:35------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTNAME","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null}
+------------------------------------------07-04-2024 15:38:35------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------07-04-2024 15:38:47------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTNAME","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null}
+------------------------------------------07-04-2024 15:38:47------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------07-04-2024 15:38:55------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTNAME","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null}
+------------------------------------------07-04-2024 15:38:55------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------07-04-2024 15:38:57------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECTNAME","Activity_Name":null,"Activity_Description":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Name":"Holi"}
+------------------------------------------07-04-2024 15:38:57------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------07-04-2024 15:39:03------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECTNAME","Activity_Name":null,"Activity_Description":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Name":"Diwali"}
+------------------------------------------07-04-2024 15:39:03------------------------------------------
+ActivityBL=>ActivityOperation=>Started

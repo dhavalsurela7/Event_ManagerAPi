@@ -18,6 +18,7 @@ namespace Models
         public string Event_Image { get; set;}
 
         public string Event_Description { get; set; }   
+        public string New_Event_Name { get; set; }
 
 
     }
