@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Data.SqlClient;
 using LIBRARY;
 using Models;
 
@@ -12,6 +8,10 @@ namespace BL
 {
     public class UserBL
     {
+        /// <summary>
+        /// BL for User Register and Login
+        /// </summary>
+
         public SerializeResponse<UserEntity> UserOperation(UserEntity objEntity)
         {
             InsertLog.WriteErrrorLog("UserBL=>UserOperation=>Started");
@@ -37,28 +37,33 @@ namespace BL
                 SqlParameter[] Sqlpara = { prm1, prm2, prm3, prm4, prm5, prm6 };
 
                 ds = SqlHelper.ExecuteDataset(Con_str, query, Sqlpara);
+                //Register new user
                 if (objEntity.flag == "register" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
                 {
 
                     objSerializeResponse.Message = Convert.ToString(ds.Tables[0].Rows[0]["Message"]);
+                    objSerializeResponse.ID = Convert.ToInt32(ds.Tables[0].Rows[0]["Code"]);
                 }
+                //User Login 
                 else if (objEntity.flag == "login" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
                 {
                     objSerializeResponse.Message = Convert.ToString(ds.Tables[0].Rows[0]["Message"]);
+                    objSerializeResponse.ID = Convert.ToInt32(ds.Tables[0].Rows[0]["Code"]);
 
                 }
 
                 else
                 {
-                    objSerializeResponse.Message = "500|Flag is Invalid";
+                    objSerializeResponse.Message = "Flag is Invalid";
+                    objSerializeResponse.ID = 500;
 
                 }
-
 
             }
             catch (Exception ex)
             {
-                objSerializeResponse.Message = "500|Exception Occurred";
+                objSerializeResponse.Message = "Exception Occurred";
+                objSerializeResponse.ID = 500;
                 InsertLog.WriteErrrorLog("UserBL=>UserOperation=>Exception" + ex.Message + ex.StackTrace);
             }
             return objSerializeResponse;

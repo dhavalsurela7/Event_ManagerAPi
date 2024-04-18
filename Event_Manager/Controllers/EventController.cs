@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
@@ -11,6 +9,10 @@ using Newtonsoft.Json;
 
 namespace Event_Manager.Controllers
 {
+    /// <summary>
+    /// Controller for event
+    /// uses EventBL
+    /// </summary>
     public class EventController : ApiController
     {
         [HttpPost]

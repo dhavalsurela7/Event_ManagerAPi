@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Data.SqlClient;
 using LIBRARY;
 using Models;
 
@@ -12,6 +8,10 @@ namespace BL
 {
     public class ActivityBL
     {
+        /// <summary>
+        /// BL for operations on Activity table
+        /// </summary>
+
         public SerializeResponse<ActivityEntity> ActivityOperation(ActivityEntity objEntity)
         {
             InsertLog.WriteErrrorLog("ActivityBL=>ActivityOperation=>Started");
@@ -39,38 +39,44 @@ namespace BL
                 SqlParameter[] Sqlpara = { prm1, prm2, prm3, prm4, prm5, prm6, prm7 };
 
                 ds = SqlHelper.ExecuteDataset(Con_str, query, Sqlpara);
+                //Insert Activity
                 if (objEntity.flag == "INSERT" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
                 {
 
                     objSerializeResponse.Message = Convert.ToString(ds.Tables[0].Rows[0]["Message"]);
+                    objSerializeResponse.ID = Convert.ToInt32(ds.Tables[0].Rows[0]["Code"]);
                 }
-
+                //For setting price of activity ( updates price column )
                 else if (objEntity.flag == "SETPRICE" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
                 {
                     objSerializeResponse.Message = Convert.ToString(ds.Tables[0].Rows[0]["Message"]);
+                    objSerializeResponse.ID = Convert.ToInt32(ds.Tables[0].Rows[0]["Code"]);
 
                 }
-
+                //Select only names of activity
                 else if (objEntity.flag == "SELECTNAME" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
                 {
 
                     objSerializeResponse.ArrayOfResponse = bl.ListConvertDataTable<ActivityEntity>(ds.Tables[0]);
-                    objSerializeResponse.Message = "200|Data Found";
+                    objSerializeResponse.Message = "Data Found";
+                    objSerializeResponse.ID = 200;
 
 
                 }
-
+                //Select all activities
                 else if (objEntity.flag == "SELECT" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
                 {
 
                     objSerializeResponse.ArrayOfResponse = bl.ListConvertDataTable<ActivityEntity>(ds.Tables[0]);
-                    objSerializeResponse.Message = "200|Data Found";
+                    objSerializeResponse.Message = "Data Found";
+                    objSerializeResponse.ID = 200;
 
                 }
 
                 else
                 {
-                    objSerializeResponse.Message = "500|Error Occurred";
+                    objSerializeResponse.Message = "Error Occurred";
+                    objSerializeResponse.ID = 500;
 
                 }
 
@@ -78,7 +84,8 @@ namespace BL
             }
             catch (Exception ex)
             {
-                objSerializeResponse.Message = "500|Exception Occurred";
+                objSerializeResponse.Message = "Exception Occurred";
+                objSerializeResponse.ID = 500;
                 InsertLog.WriteErrrorLog("ActivityBL=>ActivityOperation=>Exception" + ex.Message + ex.StackTrace);
             }
             return objSerializeResponse;

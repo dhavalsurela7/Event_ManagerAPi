@@ -1,14 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LIBRARY
 {
+    /// <summary>
+    /// Class for Image related methods
+    /// </summary>
     public class Image
     {
+        //Converts Base64 to image and stores it
         public static string SaveImage(string ImgStr, string EventName)
         {
             String path = AppDomain.CurrentDomain.BaseDirectory + "Images"; //Path
@@ -29,6 +29,17 @@ namespace LIBRARY
             File.WriteAllBytes(imgpath, imageBytes);
 
             return imgpath;
+        }
+
+
+        //Converts Image to Base64
+        public static string GetImage(string ImgStr)
+        {
+
+            byte[] imagearray = System.IO.File.ReadAllBytes(ImgStr);
+            string base64image = Convert.ToBase64String(imagearray);
+            return base64image;
+
         }
     }
 }

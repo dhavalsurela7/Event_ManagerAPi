@@ -1,15 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Data.SqlClient;
 using LIBRARY;
 using Models;
 
 namespace BL
 {
+    /// <summary>
+    /// Bl for operations on Event Table
+    /// </summary>
     public class EventBL
     {
         public SerializeResponse<EventEntity> EventOperation(EventEntity objEntity)
@@ -24,10 +23,10 @@ namespace BL
             string query = "sp_EventOperation";
             if (objEntity.Event_Image != null)
             {
-            image = Image.SaveImage(objEntity.Event_Image, objEntity.Event_Name);
-                
+                image = Image.SaveImage(objEntity.Event_Image, objEntity.Event_Name);
+
             }
-            
+
             try
             {
 
@@ -45,53 +44,66 @@ namespace BL
                 SqlParameter[] Sqlpara = { prm1, prm2, prm3, prm4, prm5, prm6, prm7 };
 
                 ds = SqlHelper.ExecuteDataset(Con_str, query, Sqlpara);
+
+                //Insert event
                 if (objEntity.flag == "INSERT" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
                 {
 
                     objSerializeResponse.Message = Convert.ToString(ds.Tables[0].Rows[0]["Message"]);
+                    objSerializeResponse.ID = Convert.ToInt32(ds.Tables[0].Rows[0]["Code"]);
                 }
-
+                //Publish event ( set isactive = 1 )
                 else if (objEntity.flag == "PUBLISH" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
                 {
                     objSerializeResponse.Message = Convert.ToString(ds.Tables[0].Rows[0]["Message"]);
+                    objSerializeResponse.ID = Convert.ToInt32(ds.Tables[0].Rows[0]["Code"]);
 
                 }
+                //Update event
                 else if (objEntity.flag == "UPDATE" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
                 {
                     objSerializeResponse.Message = Convert.ToString(ds.Tables[0].Rows[0]["Message"]);
+                    objSerializeResponse.ID = Convert.ToInt32(ds.Tables[0].Rows[0]["Code"]);
 
                 }
+                //Delete event
                 else if (objEntity.flag == "DELETE" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
                 {
                     objSerializeResponse.Message = Convert.ToString(ds.Tables[0].Rows[0]["Message"]);
+                    objSerializeResponse.ID = Convert.ToInt32(ds.Tables[0].Rows[0]["Code"]);
 
                 }
-
+                //Select unpublished events
                 else if (objEntity.flag == "SELECTNAME" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
                 {
 
                     objSerializeResponse.ArrayOfResponse = bl.ListConvertDataTable<EventEntity>(ds.Tables[0]);
-                    objSerializeResponse.Message = "200|Data Found";
+                    objSerializeResponse.Message = "Data Found";
+                    objSerializeResponse.ID = 200;
 
 
                 }
+                //Select all events
                 else if (objEntity.flag == "SELECTALL" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
                 {
 
                     objSerializeResponse.ArrayOfResponse = bl.ListConvertDataTable<EventEntity>(ds.Tables[0]);
-                    objSerializeResponse.Message = "200|Data Found";
+                    objSerializeResponse.Message = "Data Found";
+                    objSerializeResponse.ID = 200;
 
 
                 }
+                //Select ongoing events
                 else if (objEntity.flag == "SELECTONGOING" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
                 {
 
                     objSerializeResponse.ArrayOfResponse = bl.ListConvertDataTable<EventEntity>(ds.Tables[0]);
-                    objSerializeResponse.Message = "200|Data Found";
+                    objSerializeResponse.Message = "Data Found";
+                    objSerializeResponse.ID = 200;
 
 
                 }
-
+                //Select Published events
                 else if (objEntity.flag == "SELECT" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
                 {
 
@@ -100,19 +112,18 @@ namespace BL
                     {
                         if (item.Event_Image != null)
                         {
-                            byte[] imagearray = System.IO.File.ReadAllBytes(item.Event_Image);
-                            string base64image = Convert.ToBase64String(imagearray);
-                            item.Event_Image = base64image;
+                            item.Event_Image = Image.GetImage(item.Event_Image);
                         }
                     }
-                    objSerializeResponse.Message = "200|Data Found";
+                    objSerializeResponse.Message = "Data Found";
+                    objSerializeResponse.ID = 200;
 
                 }
-            
 
                 else
                 {
-                    objSerializeResponse.Message = "500|Error Occurred";
+                    objSerializeResponse.Message = "Error Occurred";
+                    objSerializeResponse.ID = 500;
 
                 }
 
@@ -120,7 +131,8 @@ namespace BL
             }
             catch (Exception ex)
             {
-                objSerializeResponse.Message = "500|Exception Occurred";
+                objSerializeResponse.Message = "Exception Occurred";
+                objSerializeResponse.ID = 500;
                 InsertLog.WriteErrrorLog("EventBL=>EventOperation=>Exception" + ex.Message + ex.StackTrace);
             }
             return objSerializeResponse;

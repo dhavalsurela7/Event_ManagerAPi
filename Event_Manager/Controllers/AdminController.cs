@@ -1,20 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using Newtonsoft.Json;
 using BL;
 using LIBRARY;
 using Models;
+using Newtonsoft.Json;
 
 namespace Event_Manager.Controllers
 {
     /// <summary>
-    /// Controller for User Table
-    /// Contains api for Inserting User
-    /// uses UserOperationsBl
+    /// Contains api for Admin login
+    /// uses AdminBl
     /// </summary>
     public class AdminController : ApiController
     {

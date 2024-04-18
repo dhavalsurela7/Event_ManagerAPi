@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Models
+﻿namespace Models
 {
     public class UserEntity
     {
@@ -18,6 +12,6 @@ namespace Models
 
         public string User_Password { get; set; }
 
-        public string User_Mobile { get; set;}
+        public string User_Mobile { get; set; }
     }
 }

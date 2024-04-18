@@ -1,11 +1,11 @@
 ﻿using System;
-using System.Configuration;
-using System.Data;
-using System.Data.SqlClient;
 using System.IO;
 
 namespace LIBRARY
 {
+    /// <summary>
+    /// Class for Writing Errorlog in txt file datewise
+    /// </summary>
     public class InsertLog
     {
 
