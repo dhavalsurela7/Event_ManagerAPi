@@ -9,7 +9,9 @@ namespace BL
     public class ActivityBL
     {
         /// <summary>
-        /// BL for operations on Activity table
+        /// Name : Dhaval Surela
+        /// Date : 04/04/2024
+        /// BL for operations like insert, update price, select name, select all on Activity table
         /// </summary>
 
         public SerializeResponse<ActivityEntity> ActivityOperation(ActivityEntity objEntity)

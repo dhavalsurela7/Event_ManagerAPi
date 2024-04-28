@@ -7,7 +7,9 @@ using Models;
 namespace BL
 {
     /// <summary>
-    /// Bl for operations on Event Table
+    /// Name : Dhaval Surela
+    /// Date : 04/04/2024
+    /// Bl for operations like insert, update, delete,select on Event Table
     /// </summary>
     public class EventBL
     {
@@ -21,7 +23,7 @@ namespace BL
             SqlDataProvider objSDP = new SqlDataProvider();
             string image = null;
             string query = "sp_EventOperation";
-            if (objEntity.Event_Image != null)
+            if (objEntity.Event_Image != null && objEntity.Event_Image != "")
             {
                 image = Image.SaveImage(objEntity.Event_Image, objEntity.Event_Name);
 
@@ -54,6 +56,12 @@ namespace BL
                 }
                 //Publish event ( set isactive = 1 )
                 else if (objEntity.flag == "PUBLISH" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
+                {
+                    objSerializeResponse.Message = Convert.ToString(ds.Tables[0].Rows[0]["Message"]);
+                    objSerializeResponse.ID = Convert.ToInt32(ds.Tables[0].Rows[0]["Code"]);
+
+                }
+                else if (objEntity.flag == "UNPUBLISH" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
                 {
                     objSerializeResponse.Message = Convert.ToString(ds.Tables[0].Rows[0]["Message"]);
                     objSerializeResponse.ID = Convert.ToInt32(ds.Tables[0].Rows[0]["Code"]);

@@ -1,0 +1,40 @@
+------------------------------------------28-04-2024 13:20:35------------------------------------------
+AdminBL=>AdminOperation=>Started
+------------------------------------------28-04-2024 13:20:37------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":"","Event_Start_Date":null,"Event_End_Date":null,"Event_Image":"","Event_Description":"","New_Event_Name":"","isActive":null}
+------------------------------------------28-04-2024 13:20:37------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------28-04-2024 13:20:55------------------------------------------
+UserBL=>UserOperation=>Started
+------------------------------------------28-04-2024 13:20:55------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":"","Event_Start_Date":null,"Event_End_Date":null,"Event_Image":"","Event_Description":"","New_Event_Name":"","isActive":null}
+------------------------------------------28-04-2024 13:20:55------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------28-04-2024 13:20:58------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECT","Event_Name":"","Event_Start_Date":null,"Event_End_Date":null,"Event_Image":"","Event_Description":"","New_Event_Name":"","isActive":null}
+------------------------------------------28-04-2024 13:20:58------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------28-04-2024 13:33:04------------------------------------------
+EventController=>EventOperation=>Request{"flag":"PUBLISH","Event_Name":"Diwali","Event_Start_Date":null,"Event_End_Date":null,"Event_Image":"","Event_Description":"","New_Event_Name":"","isActive":null}
+------------------------------------------28-04-2024 13:33:04------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------28-04-2024 13:33:04------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":"","Event_Start_Date":null,"Event_End_Date":null,"Event_Image":"","Event_Description":"","New_Event_Name":"","isActive":null}
+------------------------------------------28-04-2024 13:33:04------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------28-04-2024 13:33:04------------------------------------------
+EventController=>EventOperation=>Request{"flag":"UNPUBLISH","Event_Name":"Diwali","Event_Start_Date":null,"Event_End_Date":null,"Event_Image":"","Event_Description":"","New_Event_Name":"","isActive":null}
+------------------------------------------28-04-2024 13:33:04------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------28-04-2024 13:33:04------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":"","Event_Start_Date":null,"Event_End_Date":null,"Event_Image":"","Event_Description":"","New_Event_Name":"","isActive":null}
+------------------------------------------28-04-2024 13:33:04------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------28-04-2024 13:48:39------------------------------------------
+AdminBL=>AdminOperation=>Started
+------------------------------------------28-04-2024 13:48:40------------------------------------------
+AdminBL=>AdminOperation=>Started
+------------------------------------------28-04-2024 13:48:41------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":"","Event_Start_Date":null,"Event_End_Date":null,"Event_Image":"","Event_Description":"","New_Event_Name":"","isActive":null}
+------------------------------------------28-04-2024 13:48:41------------------------------------------
+EventBL=>EventOperation=>Started

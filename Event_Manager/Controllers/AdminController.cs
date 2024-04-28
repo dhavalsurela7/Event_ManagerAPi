@@ -10,8 +10,11 @@ using Newtonsoft.Json;
 namespace Event_Manager.Controllers
 {
     /// <summary>
+    /// Name ; Dhaval Surela
+    /// Date ; 04/04/2024
     /// Contains api for Admin login
     /// uses AdminBl
+    /// here we perform login operation for admin table
     /// </summary>
     public class AdminController : ApiController
     {

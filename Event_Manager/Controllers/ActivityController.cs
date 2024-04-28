@@ -10,8 +10,11 @@ using Newtonsoft.Json;
 namespace Activity_Manager.Controllers
 {
     /// <summary>
+    /// Name : Dhaval Surela
+    /// 
     /// Controller for activity 
     /// Uses ActivityBL
+    /// here we perform insert, update price, select name, select all activities
     /// </summary>
     public class ActivityController : ApiController
     {

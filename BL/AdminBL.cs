@@ -7,6 +7,8 @@ using Models;
 namespace BL
 {
     /// <summary>
+    /// Name : Dhaval Surela
+    /// Date : 04/04/2024
     /// BL for admin login
     /// </summary>
     public class AdminBL
@@ -39,8 +41,18 @@ namespace BL
                 //Admin login
                 if (objEntity.flag == "login" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
                 {
-                    objSerializeResponse.Message = Convert.ToString(ds.Tables[0].Rows[0]["Message"]);
-                    objSerializeResponse.ID = Convert.ToInt32(ds.Tables[0].Rows[0]["Code"]);
+                    if (JWT.GenerateToken(objEntity.Admin_Email, "User") != "")
+                    {
+                        objSerializeResponse.Message = JWT.GenerateToken(objEntity.Admin_Email, "Admin");
+                        objSerializeResponse.ID = Convert.ToInt32(ds.Tables[0].Rows[0]["Code"]);
+
+                    }
+                    else
+                    {
+                        objSerializeResponse.Message = "Token not generated";
+                        objSerializeResponse.ID = 500;
+                    }
+
 
                 }
 

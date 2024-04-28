@@ -10,8 +10,11 @@ using Newtonsoft.Json;
 namespace Event_Manager.Controllers
 {
     /// <summary>
+    /// Name : Dhaval Surela
+    /// Date : 04/04/2024
     /// Contains api for Inserting User and login user
     /// uses UserBl
+    /// here we perform insert, and login operation for user
     /// </summary>
     public class UserController : ApiController
     {
