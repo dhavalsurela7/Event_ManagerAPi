@@ -40,10 +40,11 @@ namespace BL
                 SqlParameter prm5 = objSDP.CreateInitializedParameter("@Event_Image", DbType.String, image);
                 SqlParameter prm6 = objSDP.CreateInitializedParameter("@Event_Description", DbType.String, objEntity.Event_Description);
                 SqlParameter prm7 = objSDP.CreateInitializedParameter("@New_Event_Name", DbType.String, objEntity.New_Event_Name);
+                SqlParameter prm8 = objSDP.CreateInitializedParameter("@Event_Id", DbType.String, objEntity.Event_Id);
 
 
 
-                SqlParameter[] Sqlpara = { prm1, prm2, prm3, prm4, prm5, prm6, prm7 };
+                SqlParameter[] Sqlpara = { prm1, prm2, prm3, prm4, prm5, prm6, prm7,prm8 };
 
                 ds = SqlHelper.ExecuteDataset(Con_str, query, Sqlpara);
 
@@ -96,6 +97,13 @@ namespace BL
                 {
 
                     objSerializeResponse.ArrayOfResponse = bl.ListConvertDataTable<EventEntity>(ds.Tables[0]);
+                    foreach (var item in objSerializeResponse.ArrayOfResponse)
+                    {
+                        if (item.Event_Image != null)
+                        {
+                            item.Event_Image = Image.GetImage(item.Event_Image);
+                        }
+                    }
                     objSerializeResponse.Message = "Data Found";
                     objSerializeResponse.ID = 200;
 

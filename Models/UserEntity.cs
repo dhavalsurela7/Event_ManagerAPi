@@ -2,15 +2,7 @@
 {
     public class UserEntity
     {
-        public UserEntity()
-        {
-            flag = "";
-            User_Name = "";
-            User_Email = "";
-            User_Address = "";
-            User_Password = "";
-            User_Mobile = "";
-        }
+
         public string flag { get; set; }
 
         public string User_Name { get; set; }

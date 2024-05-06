@@ -1,0 +1,6 @@
+------------------------------------------06-05-2024 12:08:12------------------------------------------
+AdminBL=>AdminOperation=>Started
+------------------------------------------06-05-2024 12:08:15------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------06-05-2024 12:08:15------------------------------------------
+EventBL=>EventOperation=>Started

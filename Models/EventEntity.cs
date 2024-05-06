@@ -2,15 +2,7 @@
 {
     public class EventEntity
     {
-        public EventEntity()
-        {
-            flag = "";
-            Event_Name = "";
-     
-            Event_Image = "";
-            Event_Description = "";
-            New_Event_Name = "";
-        }
+       
         public string flag { get; set; }
         public string Event_Name { get; set; }
 
@@ -23,6 +15,7 @@
         public string Event_Description { get; set; }
         public string New_Event_Name { get; set; }
         public string isActive { get; set; }
+        public string Event_Id { get; set; }
 
 
     }

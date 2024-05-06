@@ -4,6 +4,8 @@ using System.IO;
 namespace LIBRARY
 {
     /// <summary>
+    /// Author : Dhaval Surela
+    /// Date : 05/04/2024
     /// Class for Image related methods
     /// </summary>
     public class Image

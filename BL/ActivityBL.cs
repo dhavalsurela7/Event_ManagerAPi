@@ -34,7 +34,7 @@ namespace BL
                 SqlParameter prm4 = objSDP.CreateInitializedParameter("@Activity_Start_Datetime", DbType.String, objEntity.Activity_Start_Datetime);
                 SqlParameter prm5 = objSDP.CreateInitializedParameter("@Activity_End_Datetime", DbType.String, objEntity.Activity_End_Datetime);
                 SqlParameter prm6 = objSDP.CreateInitializedParameter("@Activity_Price", DbType.Int64, objEntity.Activity_Price);
-                SqlParameter prm7 = objSDP.CreateInitializedParameter("@Event_Name", DbType.String, objEntity.Event_Name);
+                SqlParameter prm7 = objSDP.CreateInitializedParameter("@Event_Id", DbType.String, objEntity.Event_Id);
 
 
 

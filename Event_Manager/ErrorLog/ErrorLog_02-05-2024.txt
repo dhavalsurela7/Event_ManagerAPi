@@ -1,0 +1,1067 @@
+------------------------------------------02-05-2024 14:24:27------------------------------------------
+AdminBL=>AdminOperation=>Started
+------------------------------------------02-05-2024 14:24:29------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:24:29------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:25:03------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:25:03------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:25:06------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:25:06------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:26:10------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:26:10------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:26:16------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:26:16------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:26:24------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:26:24------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:26:28------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:26:28------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:26:35------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:26:35------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:26:57------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:26:57------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:27:00------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:27:00------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:27:35------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:27:35------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:27:40------------------------------------------
+EventController=>EventOperation=>Request{"flag":"UNPUBLISH","Event_Name":"Diwali","Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:27:40------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:27:41------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:27:41------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:27:43------------------------------------------
+EventController=>EventOperation=>Request{"flag":"UNPUBLISH","Event_Name":"Dashera","Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:27:43------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:27:43------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:27:43------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:27:43------------------------------------------
+EventController=>EventOperation=>Request{"flag":"PUBLISH","Event_Name":"Diwali","Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:27:43------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:27:44------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:27:44------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:27:44------------------------------------------
+EventController=>EventOperation=>Request{"flag":"PUBLISH","Event_Name":"Dashera","Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:27:44------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:27:44------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:27:44------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:27:47------------------------------------------
+EventController=>EventOperation=>Request{"flag":"UNPUBLISH","Event_Name":"Diwali","Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:27:47------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:27:47------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:27:47------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:27:49------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECT","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:27:49------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:27:52------------------------------------------
+EventController=>EventOperation=>Request{"flag":"PUBLISH","Event_Name":"Diwali","Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:27:52------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:27:52------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:27:52------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:27:53------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECT","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:27:53------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:28:13------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECT","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:28:13------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:28:14------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":"4"}
+------------------------------------------02-05-2024 14:28:14------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 14:29:42------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:29:42------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:30:28------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:30:28------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:30:33------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:30:33------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 14:30:36------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:30:36------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:30:39------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:30:39------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 14:30:48------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:30:48------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 14:31:31------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:31:31------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:31:32------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:31:32------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 14:31:40------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECT","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:31:40------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:31:42------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":"4"}
+------------------------------------------02-05-2024 14:31:42------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 14:32:52------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:32:52------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:32:56------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:32:56------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:32:58------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:32:58------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 14:33:02------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:33:02------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 14:33:02------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:33:02------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 14:33:02------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:33:02------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 14:33:02------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:33:02------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 14:33:02------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:33:02------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 14:33:52------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:33:52------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:34:08------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:34:08------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:34:09------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:34:09------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 14:34:47------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:34:47------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:34:48------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:34:48------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 14:35:32------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECT","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:35:32------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:35:34------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":"4"}
+------------------------------------------02-05-2024 14:35:34------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 14:36:36------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECT","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:36:36------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:37:32------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:37:32------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:38:37------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:38:37------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:38:44------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:38:44------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:38:46------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:38:46------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 14:39:57------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:39:57------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:40:08------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:40:08------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 14:40:23------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:40:23------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:41:05------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:41:05------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:41:30------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:41:30------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:42:14------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:42:14------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:42:25------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:42:25------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:42:40------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:42:40------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:42:43------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:42:43------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:42:47------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:42:47------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:43:08------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:43:08------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:43:11------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:43:11------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:43:13------------------------------------------
+EventController=>EventOperation=>Request{"flag":"UNPUBLISH","Event_Name":"Diwali","Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:43:13------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:43:13------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:43:13------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:43:37------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:43:37------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:44:13------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:44:13------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:44:15------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:44:15------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:45:37------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:45:37------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:45:49------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:45:49------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:45:53------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:45:53------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:46:16------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:46:16------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:46:23------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:46:23------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:46:24------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:46:24------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:46:49------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:46:49------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:47:12------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:47:12------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:47:22------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:47:22------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:47:36------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:47:36------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:47:39------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:47:39------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:47:52------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:47:52------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:47:56------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:47:56------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:48:12------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:48:12------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:48:32------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:48:32------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:48:43------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:48:43------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:49:18------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:49:18------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:49:22------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:49:22------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:49:46------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:49:46------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:50:02------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:50:02------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:50:05------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:50:05------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:50:20------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:50:20------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:50:33------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:50:33------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:50:35------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:50:35------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 14:50:37------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:50:37------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 14:50:40------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:50:40------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 14:50:51------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTNAME","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:50:51------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:52:19------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:52:19------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:52:21------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:52:21------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:52:26------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:52:26------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:52:27------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:52:27------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:52:30------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:52:30------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:52:34------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:52:34------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:52:37------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:52:37------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:52:39------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:52:39------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:53:33------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:53:33------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:53:35------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:53:35------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:53:39------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:53:39------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:53:43------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:53:43------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:53:46------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:53:46------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:54:05------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:54:05------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:54:10------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:54:10------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:54:37------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:54:37------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:54:41------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:54:41------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:54:52------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:54:52------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 14:56:04------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:56:04------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:56:12------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:56:12------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:56:14------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:56:14------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:56:17------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:56:17------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:56:38------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:56:38------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:56:44------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:56:44------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:56:58------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:56:58------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:57:06------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:57:06------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:57:38------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:57:38------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:57:48------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:57:48------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:58:05------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:58:05------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:58:10------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:58:10------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:58:13------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:58:13------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:58:33------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:58:33------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:58:51------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:58:51------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:59:01------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:59:01------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:59:15------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:59:15------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:59:19------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:59:19------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:59:30------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:59:30------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:59:42------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:59:42------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:59:45------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:59:45------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 14:59:58------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 14:59:58------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:00:40------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:00:40------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:00:52------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:00:52------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:00:55------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:00:55------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:00:59------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:00:59------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:01:03------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:01:03------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:01:04------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:01:04------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 15:04:16------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:04:16------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:05:57------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:05:57------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 15:09:21------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:09:21------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:09:51------------------------------------------
+UserBL=>UserOperation=>Started
+------------------------------------------02-05-2024 15:09:52------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:09:52------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:09:53------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECT","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:09:53------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:09:54------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":"4"}
+------------------------------------------02-05-2024 15:09:54------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 15:09:57------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":"5"}
+------------------------------------------02-05-2024 15:09:57------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 15:10:16------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:10:16------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:10:16------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:10:16------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:10:31------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:10:31------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:10:31------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:10:31------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:10:34------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:10:34------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:10:38------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:10:38------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 15:11:27------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECT","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:11:27------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:11:28------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":"5"}
+------------------------------------------02-05-2024 15:11:28------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 15:11:33------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:11:33------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 15:13:33------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:13:33------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:13:35------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":"4"}
+------------------------------------------02-05-2024 15:13:35------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 15:13:37------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":"5"}
+------------------------------------------02-05-2024 15:13:37------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 15:14:21------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:14:21------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:14:22------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:14:22------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:14:29------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:14:29------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:14:29------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:14:29------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:14:36------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:14:36------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:14:37------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:14:37------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:14:46------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:14:46------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:14:47------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:14:47------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:14:48------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":"5"}
+------------------------------------------02-05-2024 15:14:48------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 15:15:01------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:15:01------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:15:01------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:15:01------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:15:11------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:15:11------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:15:11------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:15:11------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:15:16------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:15:16------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:15:17------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":"4"}
+------------------------------------------02-05-2024 15:15:17------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 15:15:17------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":"5"}
+------------------------------------------02-05-2024 15:15:17------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 15:15:21------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":"9"}
+------------------------------------------02-05-2024 15:15:21------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 15:15:24------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":"8"}
+------------------------------------------02-05-2024 15:15:24------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 15:15:26------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":"10"}
+------------------------------------------02-05-2024 15:15:26------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 15:16:00------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":"5"}
+------------------------------------------02-05-2024 15:16:00------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 15:18:43------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:18:43------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:18:43------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:18:43------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:20:27------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:20:27------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:20:27------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:20:27------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:20:42------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:20:42------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:20:42------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:20:42------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:20:46------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:20:46------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:20:47------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":"4"}
+------------------------------------------02-05-2024 15:20:47------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 15:20:51------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":"5"}
+------------------------------------------02-05-2024 15:20:51------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 15:21:56------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:21:56------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:21:56------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:21:57------------------------------------------
+System.IO.IOException: The process cannot access the file 'C:\Users\LENOVO\source\repos\Event_Manager\Event_Manager\ErrorLog\ErrorLog_02-05-2024.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in C:\Users\LENOVO\source\repos\Event_Manager\Library\InsertLog.cs:line 28==   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in C:\Users\LENOVO\source\repos\Event_Manager\Library\InsertLog.cs:line 28
+------------------------------------------02-05-2024 15:22:00------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECT","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:22:00------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:22:01------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":"4"}
+------------------------------------------02-05-2024 15:22:01------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 15:22:04------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":"5"}
+------------------------------------------02-05-2024 15:22:04------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 15:22:22------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":"4"}
+------------------------------------------02-05-2024 15:22:22------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 15:22:24------------------------------------------
+ActivityController=>ActivityOperation=>Request{"flag":"SELECT","Activity_Description":null,"Activity_Name":null,"Activity_Start_Datetime":null,"Activity_End_Datetime":null,"Activity_Price":null,"Event_Id":"5"}
+------------------------------------------02-05-2024 15:22:24------------------------------------------
+ActivityBL=>ActivityOperation=>Started
+------------------------------------------02-05-2024 15:44:36------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:44:36------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:44:36------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:44:36------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:44:37------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:44:37------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:44:37------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:44:37------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:44:40------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:44:40------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:44:40------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:44:40------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:44:42------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:44:42------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:44:42------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:44:42------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:44:45------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:44:45------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:44:46------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:44:46------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:44:57------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:44:57------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:44:58------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:44:58------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:44:59------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:44:59------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:44:59------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:44:59------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:47:35------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:47:35------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:47:36------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:47:36------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:47:42------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:47:42------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:47:43------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:47:43------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:47:46------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:47:46------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:47:47------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:47:47------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:47:54------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:47:54------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:47:56------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:47:56------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:48:13------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:48:13------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:48:13------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:48:13------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:48:39------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:48:39------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:48:40------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:48:40------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:48:46------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:48:46------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:48:47------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:48:47------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:48:50------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:48:50------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:48:51------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:48:51------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:48:52------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:48:52------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:48:56------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:48:56------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:49:00------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:49:00------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:49:01------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:49:01------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:49:07------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:49:07------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:49:08------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:49:08------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:49:21------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:49:21------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:49:23------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:49:23------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:49:25------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:49:25------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:49:25------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:49:25------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:50:03------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:50:03------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:50:05------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:50:05------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:50:21------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:50:21------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:51:13------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:51:13------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:52:13------------------------------------------
+AdminBL=>AdminOperation=>Started
+------------------------------------------02-05-2024 15:52:14------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:52:14------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:52:34------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:52:34------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:52:44------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:52:44------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:52:48------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:52:48------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:53:00------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:53:00------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:53:03------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:53:03------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:53:06------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:53:06------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:53:36------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:53:37------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:53:45------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:53:45------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:54:23------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:54:23------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:54:36------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:54:36------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:56:10------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:56:10------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:56:14------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:56:14------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:56:24------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:56:24------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:57:05------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:57:05------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------02-05-2024 15:57:12------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------02-05-2024 15:57:12------------------------------------------
+EventBL=>EventOperation=>Started

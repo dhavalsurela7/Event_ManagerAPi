@@ -9,12 +9,19 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace LIBRARY
 {
+    /// <summary>
+    /// Author : Dhaval Surela
+    /// Date : 23/04/2024
+    /// class contains method for generating JWT token
+    /// </summary>
     public class JWT
     {
         private const string Secret = "db3OIsj+BXE9NZDy0t8W3TcNekrF+2d/1sFnWG4HnV8TZY30iTOdtVWJG8abWvB1GlOgJuQZdcF2Luqm/hccMw==";
 
 
+
         public static string GenerateToken(string email, string role)
+
         {
             var token = "";
             try
@@ -43,7 +50,7 @@ namespace LIBRARY
 
                 var stoken = tokenHandler.CreateToken(tokenDescriptor);
                 token = tokenHandler.WriteToken(stoken);
-                token = Encryption.Encrypt(token,"you can't decode this");
+                token = Encryption.Encrypt(token, "you can't decode this");
 
             }
             catch (Exception ex)
