@@ -44,7 +44,7 @@ namespace BL
 
 
 
-                SqlParameter[] Sqlpara = { prm1, prm2, prm3, prm4, prm5, prm6, prm7,prm8 };
+                SqlParameter[] Sqlpara = { prm1, prm2, prm3, prm4, prm5, prm6, prm7, prm8 };
 
                 ds = SqlHelper.ExecuteDataset(Con_str, query, Sqlpara);
 
@@ -150,6 +150,59 @@ namespace BL
                 objSerializeResponse.Message = "Exception Occurred";
                 objSerializeResponse.ID = 500;
                 InsertLog.WriteErrrorLog("EventBL=>EventOperation=>Exception" + ex.Message + ex.StackTrace);
+            }
+            return objSerializeResponse;
+        }
+
+        public SerializeResponse<ChartEntity> Chart(ChartEntity objEntity)
+        {
+            InsertLog.WriteErrrorLog("EventBL=>Chart=>Started");
+            ConvertDataTable bl = new ConvertDataTable();
+            SerializeResponse<ChartEntity> objSerializeResponse = new SerializeResponse<ChartEntity>();
+
+            DataSet ds = new DataSet();
+            SqlDataProvider objSDP = new SqlDataProvider();
+     
+            string query = "sp_Chart";
+
+
+            try
+            {
+
+                string Con_str = Connection.ConnectionString;
+                SqlParameter prm1 = objSDP.CreateInitializedParameter("@flag", DbType.String, objEntity.Flag);
+
+
+
+
+                SqlParameter[] Sqlpara = { prm1 };
+
+                ds = SqlHelper.ExecuteDataset(Con_str, query, Sqlpara);
+
+
+                if (ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
+                {
+                    objSerializeResponse.Message = Convert.ToString(ds.Tables[0].Rows[0]["Message"]);
+                    objSerializeResponse.ID = Convert.ToInt32(ds.Tables[0].Rows[0]["Code"]);
+                    if (ds?.Tables.Count > 1 && ds.Tables[0].Rows.Count > 0)
+                    {
+                        objSerializeResponse.ArrayOfResponse = bl.ListConvertDataTable<ChartEntity>(ds.Tables[1]);
+                    }
+                }
+                else
+                {
+                    objSerializeResponse.Message = "Error Occurred";
+                    objSerializeResponse.ID = 500;
+
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                objSerializeResponse.Message = "Exception Occurred";
+                objSerializeResponse.ID = 500;
+                InsertLog.WriteErrrorLog("EventBL=>Chart=>Exception" + ex.Message + ex.StackTrace);
             }
             return objSerializeResponse;
         }

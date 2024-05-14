@@ -39,5 +39,45 @@ namespace Event_Manager.Controllers
             return Request.CreateResponse(HttpStatusCode.OK, response);
         }
 
+        [HttpPost]
+        [Route("api/UserController/SendOtp")]
+        public HttpResponseMessage SendOtp(MailEntity request)
+        {
+            InsertLog.WriteErrrorLog("UserController=>SendOtp=>Request" + JsonConvert.SerializeObject(request));
+            SerializeResponse<MailEntity> response = new SerializeResponse<MailEntity>();
+            try
+            {
+                UserBL objUserBL = new UserBL();
+                response = objUserBL.SendOtp(request);
+            }
+            catch (Exception ex)
+            {
+                response = new SerializeResponse<MailEntity>();
+                response.Message = "500|Exception Occurred";
+                InsertLog.WriteErrrorLog("UserController=>SendOtp=>Exception" + ex.Message.ToString() + "" + ex.StackTrace.ToString());
+            }
+            return Request.CreateResponse(HttpStatusCode.OK, response);
+        }
+
+
+        [HttpPost]
+        [Route("api/UserController/VerifyOtp")]
+        public HttpResponseMessage VerifyOtp(MailEntity request)
+        {
+            InsertLog.WriteErrrorLog("UserController=>VerifyOtp=>Request" + JsonConvert.SerializeObject(request));
+            SerializeResponse<MailEntity> response = new SerializeResponse<MailEntity>();
+            try
+            {
+                UserBL objUserBL = new UserBL();
+                response = objUserBL.VerifyOtp(request);
+            }
+            catch (Exception ex)
+            {
+                response = new SerializeResponse<MailEntity>();
+                response.Message = "500|Exception Occurred";
+                InsertLog.WriteErrrorLog("UserController=>VerifyOtp=>Exception" + ex.Message.ToString() + "" + ex.StackTrace.ToString());
+            }
+            return Request.CreateResponse(HttpStatusCode.OK, response);
+        }
     }
 }

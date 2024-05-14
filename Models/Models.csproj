@@ -43,7 +43,9 @@
   <ItemGroup>
     <Compile Include="ActivityEntity.cs" />
     <Compile Include="AdminEntity.cs" />
+    <Compile Include="ChartEntity.cs" />
     <Compile Include="EventEntity.cs" />
+    <Compile Include="MailEntity.cs" />
     <Compile Include="UserEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

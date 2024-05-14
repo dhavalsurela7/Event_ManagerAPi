@@ -1,0 +1,20 @@
+------------------------------------------11-05-2024 12:02:05------------------------------------------
+UserController=>SendOtp=>Request{"Email":null,"Template_Subject":null,"Template_Body":null}
+------------------------------------------11-05-2024 12:02:05------------------------------------------
+MailSender=>send_OTP=>Started
+------------------------------------------11-05-2024 12:02:06------------------------------------------
+EventBL=>EventOperation=>ExceptionValue cannot be null.
+Parameter name: addresses   at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at Library.MailSender.SendEmail(String receiver, String subject, String body, Boolean flag, String filename) in C:\Users\LENOVO\source\repos\Event_Manager\Library\MailSender.cs:line 29
+------------------------------------------11-05-2024 12:03:48------------------------------------------
+UserController=>SendOtp=>Request{"Email":null,"Template_Subject":null,"Template_Body":null}
+------------------------------------------11-05-2024 12:03:58------------------------------------------
+MailSender=>send_OTP=>Started
+------------------------------------------11-05-2024 12:07:01------------------------------------------
+UserController=>SendOtp=>Request{"Name":"OTP","Email":"dalsukh.n@optimumfintech.co.in","Template_Subject":null,"Template_Body":null}
+------------------------------------------11-05-2024 12:07:04------------------------------------------
+MailSender=>send_OTP=>Started
+------------------------------------------11-05-2024 12:22:02------------------------------------------
+UserController=>SendOtp=>Request{"Name":"OTP","Email":"dalsukh.n@optimumfintech.co.in","Template_Subject":null,"Template_Body":null}
+------------------------------------------11-05-2024 12:22:04------------------------------------------
+MailSender=>send_OTP=>Started

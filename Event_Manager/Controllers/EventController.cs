@@ -37,5 +37,26 @@ namespace Event_Manager.Controllers
             }
             return Request.CreateResponse(HttpStatusCode.OK, response);
         }
+
+
+        [HttpPost]
+        [Route("api/EventController/Chart")]
+        public HttpResponseMessage Chart(ChartEntity request)
+        {
+            InsertLog.WriteErrrorLog("EventController=>Chart=>Request" + JsonConvert.SerializeObject(request));
+            SerializeResponse<ChartEntity> response = new SerializeResponse<ChartEntity>();
+            try
+            {
+                EventBL objEventBL = new EventBL();
+                response = objEventBL.Chart(request);
+            }
+            catch (Exception ex)
+            {
+                response = new SerializeResponse<ChartEntity>();
+                response.Message = "500|Exception Occurred";
+                InsertLog.WriteErrrorLog("EventController=>Chart=>Exception" + ex.Message.ToString() + "" + ex.StackTrace.ToString());
+            }
+            return Request.CreateResponse(HttpStatusCode.OK, response);
+        }
     }
 }
