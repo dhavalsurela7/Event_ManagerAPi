@@ -64,6 +64,18 @@ namespace BL
 
 
                 }
+                else if (objEntity.flag == "exist" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
+                {
+                    objSerializeResponse.Message = Convert.ToString(ds.Tables[0].Rows[0]["Message"]);
+                    objSerializeResponse.ID = Convert.ToInt32(ds.Tables[0].Rows[0]["Code"]);
+
+                }
+                else if (objEntity.flag == "reset" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
+                {
+                    objSerializeResponse.Message = Convert.ToString(ds.Tables[0].Rows[0]["Message"]);
+                    objSerializeResponse.ID = Convert.ToInt32(ds.Tables[0].Rows[0]["Code"]);
+
+                }
 
                 else
                 {
@@ -168,23 +180,23 @@ namespace BL
                 string Con_str = Connection.ConnectionString;
                 SqlParameter prm1 = objSDP.CreateInitializedParameter("@Email", DbType.String, objEntity.Email);
                 SqlParameter prm2 = objSDP.CreateInitializedParameter("@Otp", DbType.String, objEntity.OTP);
-    
-                
+
+
 
 
 
                 SqlParameter[] Sqlpara = { prm1, prm2 };
 
                 ds = SqlHelper.ExecuteDataset(Con_str, query, Sqlpara);
-                //Register new user
-                if ( ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
+
+                if (ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
                 {
 
                     objSerializeResponse.Message = Convert.ToString(ds.Tables[0].Rows[0]["Message"]);
                     objSerializeResponse.ID = Convert.ToInt32(ds.Tables[0].Rows[0]["Code"]);
                 }
-                //User Login 
-               
+
+
                 else
                 {
                     objSerializeResponse.Message = "Error ocurred";

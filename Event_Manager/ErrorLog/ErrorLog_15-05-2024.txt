@@ -1,0 +1,114 @@
+------------------------------------------15-05-2024 17:59:42------------------------------------------
+AdminBL=>AdminOperation=>Started
+------------------------------------------15-05-2024 17:59:44------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------15-05-2024 17:59:44------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------15-05-2024 18:00:38------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------15-05-2024 18:00:38------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------15-05-2024 18:00:41------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------15-05-2024 18:00:41------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------15-05-2024 18:00:55------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------15-05-2024 18:00:55------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------15-05-2024 18:00:59------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTALL","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------15-05-2024 18:00:59------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------15-05-2024 18:13:05------------------------------------------
+UserController=>SendOtp=>Request{"Name":null,"OTP":null,"Email":"dhavalsurela4@gmail.com","Template_Subject":null,"Template_Body":null}
+------------------------------------------15-05-2024 18:13:05------------------------------------------
+MailSender=>send_OTP=>Started
+------------------------------------------15-05-2024 18:14:37------------------------------------------
+UserController=>SendOtp=>Request{"Name":null,"OTP":null,"Email":"dhavalsurela4@gmail.com","Template_Subject":null,"Template_Body":null}
+------------------------------------------15-05-2024 18:14:37------------------------------------------
+MailSender=>send_OTP=>Started
+------------------------------------------15-05-2024 18:14:59------------------------------------------
+UserController=>VerifyOtp=>Request{"Name":null,"OTP":"288056","Email":"dhavalsurela4@gmail.com","Template_Subject":null,"Template_Body":null}
+------------------------------------------15-05-2024 18:14:59------------------------------------------
+UserBL=>VerifyOtp=>Started
+------------------------------------------15-05-2024 18:32:06------------------------------------------
+UserBL=>UserOperation=>Started
+------------------------------------------15-05-2024 18:32:35------------------------------------------
+UserBL=>UserOperation=>Started
+------------------------------------------15-05-2024 18:34:41------------------------------------------
+UserBL=>UserOperation=>Started
+------------------------------------------15-05-2024 18:35:56------------------------------------------
+UserBL=>UserOperation=>Started
+------------------------------------------15-05-2024 18:36:22------------------------------------------
+UserBL=>UserOperation=>Started
+------------------------------------------15-05-2024 18:37:08------------------------------------------
+UserBL=>UserOperation=>Started
+------------------------------------------15-05-2024 18:38:02------------------------------------------
+UserController=>SendOtp=>Request{"Name":null,"OTP":null,"Email":"dhavalsurela4@gmail.com","Template_Subject":null,"Template_Body":null}
+------------------------------------------15-05-2024 18:38:02------------------------------------------
+MailSender=>send_OTP=>Started
+------------------------------------------15-05-2024 18:38:28------------------------------------------
+UserController=>VerifyOtp=>Request{"Name":null,"OTP":"745741","Email":"dhavalsurela4@gmail.com","Template_Subject":null,"Template_Body":null}
+------------------------------------------15-05-2024 18:38:28------------------------------------------
+UserBL=>VerifyOtp=>Started
+------------------------------------------15-05-2024 18:38:31------------------------------------------
+UserBL=>UserOperation=>Started
+------------------------------------------15-05-2024 18:38:48------------------------------------------
+UserBL=>UserOperation=>Started
+------------------------------------------15-05-2024 18:38:48------------------------------------------
+UserController=>SendOtp=>Request{"Name":null,"OTP":null,"Email":"dhavalsurela4@gmail.com","Template_Subject":null,"Template_Body":null}
+------------------------------------------15-05-2024 18:38:48------------------------------------------
+MailSender=>send_OTP=>Started
+------------------------------------------15-05-2024 18:39:19------------------------------------------
+UserController=>VerifyOtp=>Request{"Name":null,"OTP":"595646","Email":"dhavalsurela4@gmail.com","Template_Subject":null,"Template_Body":null}
+------------------------------------------15-05-2024 18:39:19------------------------------------------
+UserBL=>VerifyOtp=>Started
+------------------------------------------15-05-2024 18:39:28------------------------------------------
+UserBL=>UserOperation=>Started
+------------------------------------------15-05-2024 18:39:44------------------------------------------
+UserBL=>UserOperation=>Started
+------------------------------------------15-05-2024 18:39:44------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------15-05-2024 18:39:44------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------15-05-2024 18:40:24------------------------------------------
+UserBL=>UserOperation=>Started
+------------------------------------------15-05-2024 18:40:55------------------------------------------
+UserBL=>UserOperation=>Started
+------------------------------------------15-05-2024 18:41:07------------------------------------------
+UserBL=>UserOperation=>Started
+------------------------------------------15-05-2024 18:41:07------------------------------------------
+UserController=>SendOtp=>Request{"Name":null,"OTP":null,"Email":"dhavalsurela4@gmail.com","Template_Subject":null,"Template_Body":null}
+------------------------------------------15-05-2024 18:41:07------------------------------------------
+MailSender=>send_OTP=>Started
+------------------------------------------15-05-2024 18:41:23------------------------------------------
+UserController=>VerifyOtp=>Request{"Name":null,"OTP":"135293","Email":"dhavalsurela4@gmail.com","Template_Subject":null,"Template_Body":null}
+------------------------------------------15-05-2024 18:41:23------------------------------------------
+UserBL=>VerifyOtp=>Started
+------------------------------------------15-05-2024 18:41:37------------------------------------------
+UserBL=>UserOperation=>Started
+------------------------------------------15-05-2024 18:42:01------------------------------------------
+UserBL=>UserOperation=>Started
+------------------------------------------15-05-2024 18:42:01------------------------------------------
+EventController=>EventOperation=>Request{"flag":"SELECTONGOING","Event_Name":null,"Event_Start_Date":null,"Event_End_Date":null,"Event_Image":null,"Event_Description":null,"New_Event_Name":null,"isActive":null,"Event_Id":null}
+------------------------------------------15-05-2024 18:42:01------------------------------------------
+EventBL=>EventOperation=>Started
+------------------------------------------15-05-2024 18:43:40------------------------------------------
+UserBL=>UserOperation=>Started
+------------------------------------------15-05-2024 18:43:40------------------------------------------
+UserController=>SendOtp=>Request{"Name":null,"OTP":null,"Email":"dhavalsurela4@gmail.com","Template_Subject":null,"Template_Body":null}
+------------------------------------------15-05-2024 18:43:40------------------------------------------
+MailSender=>send_OTP=>Started
+------------------------------------------15-05-2024 18:43:54------------------------------------------
+UserController=>VerifyOtp=>Request{"Name":null,"OTP":"547008","Email":"dhavalsurela4@gmail.com","Template_Subject":null,"Template_Body":null}
+------------------------------------------15-05-2024 18:43:54------------------------------------------
+UserBL=>VerifyOtp=>Started
+------------------------------------------15-05-2024 18:44:02------------------------------------------
+UserBL=>UserOperation=>Started
+------------------------------------------15-05-2024 19:04:38------------------------------------------
+UserBL=>UserOperation=>Started
+------------------------------------------15-05-2024 19:04:38------------------------------------------
+UserController=>SendOtp=>Request{"Name":null,"OTP":null,"Email":"dhavalsurela4@gmail.com","Template_Subject":null,"Template_Body":null}
+------------------------------------------15-05-2024 19:04:38------------------------------------------
+MailSender=>send_OTP=>Started

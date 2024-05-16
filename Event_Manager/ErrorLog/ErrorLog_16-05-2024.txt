@@ -1,0 +1,10 @@
+------------------------------------------16-05-2024 13:00:27------------------------------------------
+UserController=>SendOtp=>Request{"Name":null,"OTP":null,"Email":"riyawali123@gmail.com","Template_Subject":null,"Template_Body":null}
+------------------------------------------16-05-2024 13:00:27------------------------------------------
+MailSender=>send_OTP=>Started
+------------------------------------------16-05-2024 13:01:26------------------------------------------
+UserController=>VerifyOtp=>Request{"Name":null,"OTP":"636901","Email":"riyawali123@gmail.com","Template_Subject":null,"Template_Body":null}
+------------------------------------------16-05-2024 13:01:26------------------------------------------
+UserBL=>VerifyOtp=>Started
+------------------------------------------16-05-2024 13:01:42------------------------------------------
+UserBL=>UserOperation=>Started
