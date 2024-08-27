@@ -58,5 +58,25 @@ namespace Event_Manager.Controllers
             }
             return Request.CreateResponse(HttpStatusCode.OK, response);
         }
+
+        [HttpPost]
+        [Route("api/EventController/GetEvent")]
+        public HttpResponseMessage GetEvent(QueryParams request)
+        {
+            InsertLog.WriteErrrorLog("EventController=>GetEvent=>Request" + JsonConvert.SerializeObject(request));
+            SerializeResponse<EventEntity> response = new SerializeResponse<EventEntity>();
+            try
+            {
+                EventBL objEventBL = new EventBL();
+                response = objEventBL.GetEvent(request);
+            }
+            catch (Exception ex)
+            {
+                response = new SerializeResponse<EventEntity>();
+                response.Message = "500|Exception Occurred";
+                InsertLog.WriteErrrorLog("EventController=>GetEvent=>Exception" + ex.Message.ToString() + "" + ex.StackTrace.ToString());
+            }
+            return Request.CreateResponse(HttpStatusCode.OK, response);
+        }
     }
 }

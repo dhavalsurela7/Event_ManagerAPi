@@ -162,7 +162,7 @@ namespace BL
 
             DataSet ds = new DataSet();
             SqlDataProvider objSDP = new SqlDataProvider();
-     
+
             string query = "sp_Chart";
 
 
@@ -203,6 +203,64 @@ namespace BL
                 objSerializeResponse.Message = "Exception Occurred";
                 objSerializeResponse.ID = 500;
                 InsertLog.WriteErrrorLog("EventBL=>Chart=>Exception" + ex.Message + ex.StackTrace);
+            }
+            return objSerializeResponse;
+        }
+
+
+        public SerializeResponse<EventEntity> GetEvent(QueryParams objEntity)
+        {
+            InsertLog.WriteErrrorLog("EventBL=>GetEvent=>Started");
+            ConvertDataTable bl = new ConvertDataTable();
+            SerializeResponse<EventEntity> objSerializeResponse = new SerializeResponse<EventEntity>();
+
+            DataSet ds = new DataSet();
+            SqlDataProvider objSDP = new SqlDataProvider();
+
+            string query = "sp_GetEvents";
+
+
+            try
+            {
+
+                string Con_str = Connection.ConnectionString;
+                SqlParameter prm4 = objSDP.CreateInitializedParameter("@START_INDEX", DbType.Int32, objEntity.START_INDEX);
+                SqlParameter prm5 = objSDP.CreateInitializedParameter("@PAGE_SIZE", DbType.Int32, objEntity.PAGE_SIZE);
+                SqlParameter prm1 = objSDP.CreateInitializedParameter("@SEARCH_TEXT", DbType.String, objEntity.SEARCH_TEXT);
+                SqlParameter prm2 = objSDP.CreateInitializedParameter("@SORT_COLUMN_NAME", DbType.String, objEntity.SORT_COLUMN_NAME);
+                SqlParameter prm3 = objSDP.CreateInitializedParameter("@SORT_COLUMN_DIRECTION", DbType.String, objEntity.SORT_COLUMN_DIRECTION);
+
+
+
+
+                SqlParameter[] Sqlpara = { prm1, prm2, prm3, prm4, prm5 };
+
+                ds = SqlHelper.ExecuteDataset(Con_str, query, Sqlpara);
+
+
+                if (ds?.Tables.Count > 1 && ds.Tables[1].Rows.Count > 0)
+                {
+                    objSerializeResponse.ArrayOfResponse = bl.ListConvertDataTable<EventEntity>(ds.Tables[0]);
+                    objSerializeResponse.ArrayOfResponse2 = bl.ListConvertDataTable<EventEntity>(ds.Tables[1]);
+                    objSerializeResponse.Message = "Data Found";
+                    objSerializeResponse.ID = 200;
+
+
+                }
+                else
+                {
+                    objSerializeResponse.Message = "Error Occurred";
+                    objSerializeResponse.ID = 500;
+
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                objSerializeResponse.Message = "Exception Occurred";
+                objSerializeResponse.ID = 500;
+                InsertLog.WriteErrrorLog("EventBL=>GetEvent=>Exception" + ex.Message + ex.StackTrace);
             }
             return objSerializeResponse;
         }
