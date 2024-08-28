@@ -241,7 +241,7 @@ namespace BL
                 if (ds?.Tables.Count > 1 && ds.Tables[1].Rows.Count > 0)
                 {
                     objSerializeResponse.ArrayOfResponse = bl.ListConvertDataTable<EventEntity>(ds.Tables[0]);
-                    objSerializeResponse.ArrayOfResponse2 = bl.ListConvertDataTable<EventEntity>(ds.Tables[1]);
+                    objSerializeResponse.NoOfPages = Convert.ToInt64( bl.ListConvertDataTable<EventEntity>(ds.Tables[1])[0].Event_Id);
                     objSerializeResponse.Message = "Data Found";
                     objSerializeResponse.ID = 200;
 

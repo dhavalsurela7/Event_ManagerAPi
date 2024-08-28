@@ -16,7 +16,7 @@ namespace LIBRARY
             {
                 if (!exception.ToString().ToLower().Contains("password") && !exception.ToString().ToLower().Contains("user_id"))
                 {
-                    string path = AppDomain.CurrentDomain.BaseDirectory + "\\ErrorLog\\ErrorLog_" + DateTime.Now.ToString("dd-MM-yyyy") + ".txt";
+                    string path = AppDomain.CurrentDomain.BaseDirectory + "ErrorLog\\ErrorLog_" + DateTime.Now.ToString("dd-MM-yyyy") + ".txt";
                     if (!Directory.Exists(path.Substring(0, path.LastIndexOf('\\'))))
                     {
                         Directory.CreateDirectory(path.Substring(0, path.LastIndexOf('\\')));
